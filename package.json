@@ -1,7 +1,9 @@
 {
   "dependencies": {
+    "express": "^4.17.1",
     "locomotive-scroll": "^3.6.1",
-    "parcel": "^1.12.4"
+    "parcel": "^1.12.4",
+    "parcel-bundler": "^1.12.4"
   },
   "name": "project_site",
   "version": "1.0.0",

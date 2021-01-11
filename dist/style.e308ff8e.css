@@ -23,6 +23,40 @@ p {
     color: #fff;
 }
 
+a {
+    font-size: 40px;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: lighter;
+    color: rgb(160, 189, 194);
+    text-decoration: none;
+    padding: 40px;
+}
+
+img {
+    max-width: 400px;
+    max-height: 400px;
+    padding: 40px;
+}
+
+nav {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: baseline;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.outer {
+    display: flex;
+    flex-direction: column;
+}
+
 .letter {
     font-size: 100px;
     font-family: 'Work Sans', sans-serif;
@@ -53,31 +87,18 @@ p {
     background-color: rgb(160, 189, 194);
     color: rgb(234, 240, 241);
     font-size: 70px;
-    height: 90px;
-}
-
-.fixed-section {
-    position: relative;
-    overflow: hidden;
-    height: 1000px;
-}
-
-.image {
-    bottom: -100vh;
-}
-
-.fixed,
-.image {
-    position: absolute;
-    top: -100vh;
-    right: 0;
-    left: 0;
+    height: 70px;
 }
 
 .fixed {
     height: 100%;
     background-size: cover;
     background-position: center;
+}
+
+#nav-links {
+    font-size: 30px;
+    color: #fff
 }
 
 /*# sourceMappingURL=/style.e308ff8e.css.map */
