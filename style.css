@@ -7,26 +7,27 @@
 h1 {
     font-size: 100px;
     font-family: 'Work Sans', sans-serif;
-    font-weight: lighter;
+    font-weight: 900;
     color: #fff;
+    padding: 40px;
 }
 
 section {
-    background-color: rgb(221, 216, 221);;
-    height: 700px;
+    background-color: rgb(221, 216, 221);
+    height: 1300px;
 }
 
 p {
     font-size: 40px;
     font-family: 'Work Sans', sans-serif;
-    font-weight: lighter;
+    font-weight: 900;
     color: #fff;
 }
 
 a {
     font-size: 40px;
     font-family: 'Work Sans', sans-serif;
-    font-weight: lighter;
+    font-weight: 900;
     color: rgb(160, 189, 194);
     text-decoration: none;
     padding: 40px;
@@ -52,15 +53,10 @@ nav {
     align-items: center;
 }
 
-.outer {
-    display: flex;
-    flex-direction: column;
-}
-
 .letter {
     font-size: 100px;
     font-family: 'Work Sans', sans-serif;
-    font-weight: lighter;
+    font-weight: 900;
     color: #fff;
 }
 
@@ -74,7 +70,7 @@ nav {
     padding-left: 60px;
     font-size: 100px;
     font-family: 'Work Sans', sans-serif;
-    font-weight: lighter;
+    font-weight: 900;
     color: #fff;
 }
 
@@ -99,4 +95,8 @@ nav {
 #nav-links {
     font-size: 30px;
     color: #fff
+}
+
+#title {
+    height: 700px;
 }
